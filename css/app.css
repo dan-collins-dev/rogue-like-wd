@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#game-container {
+    /* margin: 1rem auto; */
+    display: flex;
+    justify-content: center;
+}
+
+#map {
+    margin: 1rem 4rem;
+    display: grid;
+    grid-template-columns: repeat(10, 3rem);
+    grid-template-rows: repeat(10, 3rem);
+    gap: 0.5rem
+    /* justify-items: stretch; */
+}
+
+
+.tile {
+    border: 1px solid black;
+    /* position: relative;
+    width: 3rem;
+    height: 3rem;
+    top: 0rem;
+    left: 0rem; */
+    margin: 2;
+    background-color: chocolate;
+}
